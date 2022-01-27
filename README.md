@@ -23,4 +23,6 @@ $ kubectl get deployment nginx -o yaml | grep revisionHistoryLimit
 revisionHistoryLimit: 2
 ```
 ---
-Ref: https://blog.heptio.com/replicaset-cleanup-defaults-heptioprotip-9c3750981991
+References: 
+* https://blog.heptio.com/replicaset-cleanup-defaults-heptioprotip-9c3750981991
+* https://www.qikqiak.com/k8s-book/docs/32.DaemonSet%20%E4%B8%8E%20StatefulSet.html
