@@ -22,3 +22,5 @@ deployment "nginx" configured
 $ kubectl get deployment nginx -o yaml | grep revisionHistoryLimit
 revisionHistoryLimit: 2
 ```
+---
+Ref: https://blog.heptio.com/replicaset-cleanup-defaults-heptioprotip-9c3750981991
